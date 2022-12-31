@@ -8,7 +8,7 @@ using DG.Tweening;
 public class PLayerManager : MonoBehaviour
 {
     [SerializeField] private Transform _player;
-    [SerializeField] private int _numberOfStickmans;
+    public int _numberOfStickmans;
     [SerializeField] private TextMeshProUGUI _counterText;
     [SerializeField] private GameObject stickMan;
     //*****************************************************************
