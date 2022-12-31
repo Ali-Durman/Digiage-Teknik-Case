@@ -1522,12 +1522,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7299167890268386676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c23177099d3b3e4cb7e0b81740f6da0, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a017f06dfb54a2419ac253fde63c9a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 5474868746788251111}
+  _player: {fileID: 0}
   _numberOfStickmans: 0
   _counterText: {fileID: 5474868747653063387}
   stickMan: {fileID: 6442292756394624894, guid: 071ddddddaad58a4496f23d41b1c2989, type: 3}
-  distanceFactor: 0
-  Radius: 0
+  distanceFactor: 0.25
+  Radius: 0.6
