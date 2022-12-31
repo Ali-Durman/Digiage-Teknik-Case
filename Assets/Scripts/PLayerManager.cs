@@ -33,7 +33,7 @@ public class PLayerManager : MonoBehaviour
             var x = distanceFactor * Mathf.Sqrt(i) * Mathf.Cos(i * Radius);
             var z = distanceFactor * Mathf.Sqrt(i) * Mathf.Sin(i * Radius);
 
-            var NewPos = new Vector3(x, y: 0.286f, z);
+            var NewPos = new Vector3(x, y: 0.018f, z);
             _player.transform.GetChild(i).DOLocalMove(NewPos, duration: 1f).SetEase(Ease.OutBack);
         }
     }
@@ -47,6 +47,7 @@ public class PLayerManager : MonoBehaviour
 
         _numberOfStickmans = transform.childCount - 1;
         _counterText.text = _numberOfStickmans.ToString();
+        FormatStickMan();
     }
 
     private void OnTriggerEnter(Collider other)

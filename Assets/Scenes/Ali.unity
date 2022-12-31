@@ -531,6 +531,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5474868746464694280, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474868746464694280, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474868746464694280, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5474868746788251111, guid: e1ed4e588428e9044895c61715282161, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -541,11 +553,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5474868746788251111, guid: e1ed4e588428e9044895c61715282161, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.286
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 5474868746788251111, guid: e1ed4e588428e9044895c61715282161, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.92
+      value: 0.749
       objectReference: {fileID: 0}
     - target: {fileID: 5474868746788251111, guid: e1ed4e588428e9044895c61715282161, type: 3}
       propertyPath: m_LocalRotation.w
@@ -575,9 +587,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5474868747670928763, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474868747919631757, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474868747919631757, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474868747919631757, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299167890268386675, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7299167890268386676, guid: e1ed4e588428e9044895c61715282161, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299167890268386677, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: Radius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299167890268386677, guid: e1ed4e588428e9044895c61715282161, type: 3}
+      propertyPath: distanceFactor
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1ed4e588428e9044895c61715282161, type: 3}
