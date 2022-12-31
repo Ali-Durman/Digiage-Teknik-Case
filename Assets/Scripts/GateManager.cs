@@ -4,9 +4,9 @@ using UnityEngine;
 using TMPro;
 public class GateManager : MonoBehaviour
 {
-    public TextMeshPro gateNo;
-    [SerializeField] private int _randomNumber;
-    [SerializeField] bool _multiply;
+    public TextMeshProUGUI gateNo;
+    public int _randomNumber;
+    public bool _multiply;
     void Start()
     {
         if (_multiply)
