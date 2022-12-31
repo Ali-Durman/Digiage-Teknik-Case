@@ -20,17 +20,9 @@ public class EnemyAI : MonoBehaviour
     private void Update()
     {
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, _whatIsPlayer);
-        if (!playerInSightRange)
-            Idle();
         if (playerInSightRange)
             Run();
     }
-
-    private void Idle()
-    {
-        anim.SetTrigger("idle");
-    }
-
     private void Run()
     {
         anim.SetTrigger("run");
