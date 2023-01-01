@@ -18,6 +18,11 @@ public class EnemyBossHealth : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             TakeDamage(2);
+            Destroy(other.gameObject);
+        }
+        if(currentHealth == 0)
+        {
+            Destroy(this.gameObject);
         }
     }
     void TakeDamage(int damage)

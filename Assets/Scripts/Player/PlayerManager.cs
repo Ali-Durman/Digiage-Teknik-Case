@@ -36,6 +36,7 @@ public class PlayerManager : MonoBehaviour
         numberOfStickmans = transform.childCount - 1;
 
         CounterTxt.text = numberOfStickmans.ToString();
+        
 
         camera = Camera.main;
 
