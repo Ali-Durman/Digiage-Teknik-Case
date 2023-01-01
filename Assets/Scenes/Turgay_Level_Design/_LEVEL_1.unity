@@ -3188,7 +3188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 04814a31361bb4d4cac3d9e1673c6b27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 91.33001
+      value: 87.16
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 04814a31361bb4d4cac3d9e1673c6b27, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3244,7 +3244,7 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 6273e6eff60aeac4e957d6059b6b703e, type: 2}
-  m_CullingMode: 1
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -17391,33 +17391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e08217a825f06446a08c7072b309e9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvents:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 249221799}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Armature|Armature|Armature|Armature|Armature|opening_anim
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  oOpening: {fileID: 249221798}
 --- !u!65 &1403909544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17438,7 +17412,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403909542}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -17489,7 +17463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403909542}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.18999238, z: 83.05}
+  m_LocalPosition: {x: 0, y: 1.32, z: 78.88}
   m_LocalScale: {x: 4.460156, y: 3.2177, z: 7.1237717}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25694,7 +25668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7299167890268386674, guid: e1ed4e588428e9044895c61715282161, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7299167890268386676, guid: e1ed4e588428e9044895c61715282161, type: 3}
       propertyPath: m_Name
