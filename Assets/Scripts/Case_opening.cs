@@ -11,23 +11,13 @@ using UnityEngine.Events;
 public class Case_opening : MonoBehaviour
 
 {
-    [Header("Custom Event")]
-    public UnityEvent myEvents;
+
+
+    public GameObject oOpening;
     private void OnTriggerEnter(Collider other)
 
     {
-        if (myEvents == null)
-        {
-            print("Trigger is triggered but myEvents was null");
-        }
-
-        else
-
-        {
-            print("Trigger is Activated. Triggering" + myEvents);
-            myEvents.Invoke();
-        }
-
+        oOpening.GetComponent<Animator>().Play("Armature|opening_anim");
     }
 
 }
