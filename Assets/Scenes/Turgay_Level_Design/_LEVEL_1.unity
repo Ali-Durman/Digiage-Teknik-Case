@@ -993,7 +993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cf63cf1afec66048a9a2b9e4173dac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerSpeed: 1
+  _playerSpeed: 2
   isMoving: 0
   anim: {fileID: 61577784}
 --- !u!54 &61577786
@@ -20681,7 +20681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 61577783}
   _cameraOffset: {x: 0, y: 2, z: -1.5}
-  _smoothSpeed: 0.5
+  _smoothSpeed: 2.5
 --- !u!1001 &1641033999
 PrefabInstance:
   m_ObjectHideFlags: 0
