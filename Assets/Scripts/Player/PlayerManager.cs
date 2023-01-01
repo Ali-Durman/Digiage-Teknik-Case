@@ -26,6 +26,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private Transform enemy;
     private bool attack;
     public static PlayerManager PlayerManagerInstance;
+    public GameObject SecondCam;
     public ParticleSystem blood;
     public bool FinishLine, moveTheCamera;
     void Start()
@@ -194,10 +195,9 @@ public class PlayerManager : MonoBehaviour
 
         if (other.CompareTag("Finish"))
         {
-            //SecondCam.SetActive(true);
-            //FinishLine = true;
-            //Tower.TowerInstance.CreateTower(transform.childCount - 1);
-            //transform.GetChild(0).gameObject.SetActive(false);
+            SecondCam.SetActive(true);
+            FinishLine = true;
+            transform.GetChild(0).gameObject.SetActive(false);
 
         }
     }
