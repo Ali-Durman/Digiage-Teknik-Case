@@ -6,6 +6,6 @@ public class SpinObjects : MonoBehaviour
 {
     void Update()
     {
-        transform.Rotate(0f, 45f * Time.deltaTime, 0f, Space.Self);
+        transform.Rotate(0f, 0f, -250f * Time.deltaTime, Space.Self);
     }
 }
