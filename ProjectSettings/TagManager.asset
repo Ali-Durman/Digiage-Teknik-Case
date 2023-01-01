@@ -5,14 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Gate
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - whatIsGround
   - Water
   - UI
-  - 
+  - whatIsPlayer
   - 
   - 
   - 

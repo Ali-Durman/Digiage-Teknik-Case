@@ -5,7 +5,7 @@ using UnityEngine;
 using TMPro;
 using DG.Tweening;
 
-public class PLayerManager : MonoBehaviour
+public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private Transform _player;
     public int _numberOfStickmans;

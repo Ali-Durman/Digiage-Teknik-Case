@@ -7,7 +7,7 @@ using TMPro;
 
 public class SceneLoader : MonoBehaviour
 {
-    [SerializeField] private PLayerManager playermanager;
+    [SerializeField] private PlayerManager playermanager;
     [SerializeField] private GameObject _loseCanvas;
     [SerializeField] private GameObject _winCanvas;
 
@@ -19,7 +19,7 @@ public class SceneLoader : MonoBehaviour
 
     private void Start()
     {
-        playermanager = GetComponent<PLayerManager>();
+        playermanager = GetComponent<PlayerManager>();
         
         _winCanvas.SetActive(false);
         _loseCanvas.SetActive(false);
