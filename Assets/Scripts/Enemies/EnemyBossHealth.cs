@@ -13,13 +13,11 @@ public class EnemyBossHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (other.gameObject.CompareTag("Player"))
         {
-            TakeDamage(20);
-            Debug.Log(currentHealth);
+            TakeDamage(2);
         }
     }
     void TakeDamage(int damage)
