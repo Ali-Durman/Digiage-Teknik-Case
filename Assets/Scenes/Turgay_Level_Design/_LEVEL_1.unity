@@ -1069,8 +1069,8 @@ MonoBehaviour:
   numberOfEnemyStickmans: 0
   CounterTxt: {fileID: 1128043675}
   stickMan: {fileID: 6442292756394624894, guid: 071ddddddaad58a4496f23d41b1c2989, type: 3}
-  DistanceFactor: 0.3
-  Radius: 0.6
+  DistanceFactor: 0.362
+  Radius: 0.671
   moveByTouch: 0
   gameState: 0
   playerSpeed: 0
