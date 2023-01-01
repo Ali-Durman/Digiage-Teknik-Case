@@ -8,7 +8,7 @@ using UnityEngine.Events;
 
 
 
-public class Case_opening : MonoBehaviour
+public class Ending_trigger : MonoBehaviour
 
 {
 

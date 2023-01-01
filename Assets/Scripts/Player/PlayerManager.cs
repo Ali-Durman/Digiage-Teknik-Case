@@ -32,7 +32,7 @@ public class PlayerManager : MonoBehaviour
     {
         player = transform;
 
-        numberOfStickmans = transform.childCount - 1;
+        numberOfStickmans = transform.childCount - 2;
 
         CounterTxt.text = numberOfStickmans.ToString();
 
@@ -150,7 +150,7 @@ public class PlayerManager : MonoBehaviour
             Instantiate(stickMan, transform.position, Quaternion.identity, transform);
         }
 
-        numberOfStickmans = transform.childCount - 1;
+        numberOfStickmans = transform.childCount - 2;
         CounterTxt.text = numberOfStickmans.ToString();
         FormatStickMan();
     }
