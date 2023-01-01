@@ -7886,7 +7886,7 @@ GameObject:
   - component: {fileID: 828934844}
   - component: {fileID: 828934843}
   m_Layer: 0
-  m_Name: Trigger_case
+  m_Name: Finish_trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
