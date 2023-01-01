@@ -27,8 +27,13 @@ public class SceneLoader : MonoBehaviour
 
     private void Update()
     {
+        
+
+
+
         if (playermanager._numberOfStickmans == 0 )
         {
+            SceneManager.LoadScene("Level1");
             _loseCanvas.SetActive(true);
         }
     }

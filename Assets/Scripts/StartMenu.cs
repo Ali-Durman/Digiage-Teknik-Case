@@ -6,19 +6,24 @@ public class StartMenu : MonoBehaviour
 {
     bool buttonPressed = true;
     float timer  = 0;
-    float duration = 1f;
+    float duration = 2f;
 
     public GameObject Canvas;
     public GameObject Cube;
     
     [SerializeField] Material[] mats;
 
+    IEnumerator ColorDelay()
+                {
+                    yield return new WaitForSeconds(2);
+                    int random = Random.Range(0, 10);
+                    Cube.GetComponent<MeshRenderer> ().material = mats[random];
+                }
     public void ColorB()
     {
         if (buttonPressed == false)
             {
-                int random = Random.Range(0, 10);
-                Cube.GetComponent<MeshRenderer> ().material = mats[random];
+                StartCoroutine(ColorDelay());
                 buttonPressed = true;
             }
         else
@@ -27,7 +32,6 @@ public class StartMenu : MonoBehaviour
     public void StartB()
     {
         Canvas.SetActive(false);
-        
     }
 
     // Start is called before the first frame update
