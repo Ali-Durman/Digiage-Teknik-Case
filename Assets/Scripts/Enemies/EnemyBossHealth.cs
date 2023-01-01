@@ -13,12 +13,21 @@ public class EnemyBossHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(20);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             TakeDamage(2);
         }
+       
     }
     void TakeDamage(int damage)
     {
