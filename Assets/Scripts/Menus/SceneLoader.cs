@@ -27,7 +27,7 @@ public class SceneLoader : MonoBehaviour
 
     private void Update()
     {
-        if (playermanager._numberOfStickmans == 0 )
+        if (playermanager.numberOfStickmans == 0 )
         {
             _loseCanvas.SetActive(true);
         }
